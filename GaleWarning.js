@@ -182,6 +182,7 @@
   {'Date': new Date(2018, 5, 22), 'Title': '', 'Link': ''},
 
 ];
-var settings = {};
+
+var settings={NavShow: true, NavHorizontal: true};
 var element = document.getElementById('caleandar');
 caleandar(element, events, settings);

@@ -173,12 +173,6 @@
   {'Date': new Date(2017, 11, 20), 'Title': 'Alert status and activities of Mayon, Bulusan and Kanlaon Volcanoes', 'Link': function(){$('#Dec31').modal('show');}},
 
 
-
-
-
-
-
-
   {'Date': new Date(2018, 5, 22), 'Title': '', 'Link': ''},
 
 ];
