@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.wa{
+    	float:left;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; 
+    }
+	.nav{
+    	position: relative;
+		}
+	.drop{
+    	background: blue;
+    	position: absolute;
+        display: none;
+        left:100%;
+        top:0%;
+        }
+    .nav:hover{
+		color:red;
+	}
+    .nav:hover > .drop{
+    	display:block;
+        color:red;
+    }
+</style>
+</head>
+
+<body>
+<ul class="wa">
+	<li class="nav"><a href="#" target="_blank">hey?</a>
+		<ul class="drop">
+        	<li>asdad</li>
+            <li><a href="#">ggasd</a></li>
+        </ul>
+	</li>
+</ul>
+
+</body>
+
+</html>
